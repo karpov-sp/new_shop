@@ -455,20 +455,20 @@ body {
 }
 
 .categories__item:nth-child(1) {
-    background-image: url('img/offer1.png');
+    background-image: url('img/for_woman.png');
 }
 
 .categories__item:nth-child(2) {
-    background-image: url('img/offer2.png');
+    background-image: url('img/for_man.png');
 }
 
 .categories__item:nth-child(3) {
-    background-image: url('img/offer3.png');
+    background-image: url('img/for_children.png');
 }
 
 .categories__item:last-child {
     max-width: 100%;
-    background-image: url('img/offer4.png');
+    background-image: url('img/accessories.png');
     margin: 0;
 }
 
@@ -2109,9 +2109,32 @@ button:focus-visible {
     border: 1px solid #A4A4A4;
 }
 
+.registration__gender-radio {
+    display: flex;
+}
+
+.registration__gender-radio:last-of-type {
+    display: flex;
+}
+
+.registration__gender-label {
+    margin: 0 20px 0 0;
+    display: flex;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    text-align: center;
+}
+
+.registration__gender-label:last-of-type {
+    display: none;
+}
+
 .registration__gender {
     padding: 15px 0 33px;
     border: none;
+    display: flex;
 }
 
 .registration__gender-radio {
@@ -2119,23 +2142,6 @@ button:focus-visible {
     height: 17px;
     margin: 0 10px 0 0;
     border: 1px solid #A4A4A4;
-}
-
-.registration__gender-radio:last-of-type {
-    display: none;
-}
-
-.registration__gender-label {
-    font-weight: 300;
-    font-size: 11px;
-    line-height: 13px;
-    color: #000000;
-    margin: 0 20px 0 0;
-    text-align: center;
-}
-
-.registration__gender-label:last-of-type {
-    display: none;
 }
 
 .registration__access-title {
@@ -2157,14 +2163,12 @@ button:focus-visible {
     padding: 16px 24px 17px 29px;
     box-sizing: border-box;
     border: none;
-    
 }
 
 .registration__submit:hover {
     background-color: #c1b4b4;
     color: #000;
-    transition: color 2s ease;
-    
+    transition: color 2s ease;   
 }
 
 .registration__access-txt {
@@ -2329,10 +2333,7 @@ button:focus-visible {
     .product__card-product:nth-of-type(1) {
         margin: 0 0 16px 0;
     }
-    // .product__card-product:first-of-type {
-    //     order: 1;
-    //     margin: 0 0 16px 16px;
-    // }
+    
     .filter {
         margin: 0 0 27px 0;
     }
@@ -2348,10 +2349,6 @@ button:focus-visible {
         left: 456px;
     }
     /*==========================*/
-    // .products__card:first-of-type {
-    //     order: 1;
-    //     margin: 0 0 16px 16px;
-    // }
     .products__list {
         margin: 0 auto 44px;
     }
@@ -2512,7 +2509,6 @@ button:focus-visible {
     .products__card {
         max-width: 359px;
         min-height: 579px;
-        // margin: 0 auto;
     }
     .product__card-catalog {
         margin: 0 0 25px 0;
@@ -2523,18 +2519,12 @@ button:focus-visible {
     .products__card-index:nth-of-type(2n+1) {
         margin: 0 0 16px 0;
     }
-    // .product__card-catalog:nth-of-type(1) {
-    //     margin: 0 0 25px 0;
-    // }
     .product__card-catalog:nth-of-type(2n) {
         margin: 0 0 25px 0;
     }
     .product__card-catalog:nth-of-type(2n+1) {
         margin: 0 0 25px 0;
     }
-    // .products__card:nth-of-type(3n) {
-    //     margin: 0 auto;
-    // }
     .products-btn{
         margin: 0 auto 96.5px;
     }
@@ -2625,9 +2615,6 @@ button:focus-visible {
     .products__list {
         margin: 0 auto 40px;
     }
-    // .product__card-catalog {
-    //     margin: 0 0 16px 0;
-    // }
 /*==========================*/
     .description__container {
         box-sizing: border-box;
@@ -2672,14 +2659,6 @@ button:focus-visible {
         top: 40%;
         left: 86%;
     }
-    /*.products__card:nth-of-type(2n) {
-        display: none;
-    }
-    .products__card:nth-of-type(3n) {
-        display: flex;
-        order: 1;
-        margin: 0 0 16px 16px;
-    }*/
     .product__card-product:nth-of-type(2) {
         display: none;
     }
@@ -2774,11 +2753,5 @@ button:focus-visible {
     .registration__wrp-txt {
         padding: 0 8px 0 9px;
         margin: 40px 0 0 0;
-    }
-    .registration__gender-radio:last-of-type {
-        display: flex;
-    }
-    .registration__gender-label:last-of-type {
-        display: flex;
     }
 }
